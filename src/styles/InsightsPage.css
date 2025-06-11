@@ -1,0 +1,60 @@
+.insights-page {
+  padding: 40px 20px;
+  background: #fdfcff;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 30px;
+}
+
+.progress-section,
+.feedback-section,
+.milestones-section {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+}
+
+.progress-bar-container {
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 30px;
+  margin-top: 12px;
+}
+
+.progress-bar {
+  background-color: #007bff;
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: width 0.4s ease;
+}
+
+.feedback-section p {
+  font-size: 16px;
+  color: #444;
+  margin-top: 10px;
+}
+
+.milestones-section ul {
+  padding-left: 20px;
+}
+
+.milestones-section li {
+  margin-bottom: 8px;
+  color: #2c3e50;
+}

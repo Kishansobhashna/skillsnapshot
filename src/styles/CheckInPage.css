@@ -1,0 +1,44 @@
+.checkin-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.checkin-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.checkin-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.checkin-form input,
+.checkin-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.checkin-form button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.checkin-form button:hover {
+  background-color: #2563eb;
+}

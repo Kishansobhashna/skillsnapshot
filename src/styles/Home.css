@@ -1,0 +1,113 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, #f4f7fe, #e0eafc);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1d1d1f;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #357bd8;
+}
+
+.btn-outline {
+  border: 2px solid #4a90e2;
+  color: #4a90e2;
+}
+
+.btn-outline:hover {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.hero-background {
+  margin-top: 60px;
+  position: relative;
+}
+
+.progress-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+  animation: floatBars 5s ease-in-out infinite;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #4a90e2;
+  border-radius: 10px;
+  opacity: 0.5;
+  width: 60%;
+  animation: pulse 2s infinite alternate;
+}
+
+.skill-illustration img {
+  max-width: 300px;
+  animation: floatImg 6s ease-in-out infinite;
+}
+
+/* Animations */
+@keyframes floatBars {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes floatImg {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
